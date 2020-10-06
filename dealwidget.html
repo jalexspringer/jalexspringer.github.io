@@ -1,0 +1,1138 @@
+
+
+<!DOCTYPE html>
+<html class="no-js" data-version="v2.232.0.bda9021e77aa6789cbfc2a2bbd11c4d85c6c1fec"  data-language="en_US"  lang="en" dir="ltr">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="UTF-8" />
+  
+  <link rel="dns-prefetch" href="https://a.intentmedia.net"/>
+  <link rel="dns-prefetch" href="https://images.trvl-media.com"/>
+  <link rel="dns-prefetch" href="https://a.travel-assets.com/"/>
+  <link rel="dns-prefetch" href="https://b.travel-assets.com/"/>
+  <link rel="dns-prefetch" href="https://c.travel-assets.com/"/>
+  
+  <title>Widgets Builder</title>
+  
+  
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+
+  
+
+  
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" sizes="16x16 32x32" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico"  sizes="16x16 32x32" />
+
+  
+  
+  
+
+  
+  
+    <script src="https://b.travel-assets.com/uitoolkit/2-232/bda9021e77aa6789cbfc2a2bbd11c4d85c6c1fec/core/js/uitk-lib-bundle-min.js"></script>
+
+  
+  
+  <!--[if IE 8]>
+    <script src="https://b.travel-assets.com/uitoolkit/2-232/bda9021e77aa6789cbfc2a2bbd11c4d85c6c1fec/core/js/uitk-ie8-bundle-min.js"></script>
+
+  <![endif]-->
+  
+    
+  <link rel='stylesheet' type='text/css' href='https://a.travel-assets.com/uitoolkit/2-232/bda9021e77aa6789cbfc2a2bbd11c4d85c6c1fec/core/minifiedCss/brands/expedia-responsive.css'/>
+
+
+<!--[if IE 8]>
+    <link rel='stylesheet' type='text/css' href='https://a.travel-assets.com/uitoolkit/2-232/bda9021e77aa6789cbfc2a2bbd11c4d85c6c1fec/core/minifiedCss/brands/expedia-ie8.css'/>
+<![endif]-->
+
+  
+
+  
+  <link href="https://b.travel-assets.com/bundles/expweb/marketingWidgets/marketingwidgetsbuilderstyle-2da419c23a1a74664708b9d6a7b3dd87-min.css" media="all" rel="stylesheet" type="text/css" />
+
+  
+  
+    
+  <script async defer src="https://c.travel-assets.com/uitoolkit/2-232/bda9021e77aa6789cbfc2a2bbd11c4d85c6c1fec/core/js/uitk-jquery-jstemplate-bundle-min.js"></script>
+
+  <script async defer src="https://a.travel-assets.com/uitoolkit/2-232/bda9021e77aa6789cbfc2a2bbd11c4d85c6c1fec/core/js/uitk-core-bundle-min.js"></script>
+
+
+
+
+  
+
+  
+  
+    <script async defer src="https://www.expedia.com/i18n/1/en_US/dateTimeFormats.js?module=exp_datetimeformats&"></script>
+
+  
+
+  
+    
+
+<script>
+    if (!window.DCTKBootstrapIsLoaded) {
+        /* Minimal DCTK interface before it's fully loaded */
+        var dctk = window.dctk || {};
+        if (!dctk.enabled) {
+            dctk.enabled = true;
+            dctk._createOnQueueStrategy = function () {
+                var strategy = function (callback) { strategy._queue.push(callback); };
+                strategy._queue = [];
+                return strategy;
+            };
+            dctk.onReady = dctk._createOnQueueStrategy();
+        }
+        dctk._requestId =  null ;
+        dctk._siteId =  null ;
+        
+        /**
+ * Integration of Adobe Marketing Cloud ID ("Visitor ID") Service
+ *
+ * THIS FILE IS GENERATED AUTOMATICALLY
+ *
+ * Documentation available at http://go/fl0swg2n
+ *
+ * @preserve preserve
+ */
+!function(){var a=document.cookie.match(/AMCV_[^=]*=([^;]*)/)&&RegExp.$1,b=(a&&decodeURIComponent(a)||"").match(/MCMID\|([^|]*)/)&&RegExp.$1;if(!b){var c=document.createElement("script");c.src="https://a.travel-assets.com/dctk/2/js/visitor-id.js",document.getElementsByTagName("script")[0].appendChild(c)}}();
+        
+        !function(a){function b(d){if(c[d])return c[d].exports;var e=c[d]={i:d,l:!1,exports:{}};return a[d].call(e.exports,e,e.exports,b),e.l=!0,e.exports}var c={};return b.m=a,b.c=c,b.d=function(a,c,d){b.o(a,c)||Object.defineProperty(a,c,{configurable:!1,enumerable:!0,get:d})},b.n=function(a){var c=a&&a.__esModule?function(){return a.default}:function(){return a};return b.d(c,"a",c),c},b.o=function(a,b){return Object.prototype.hasOwnProperty.call(a,b)},b.p="",b(b.s=0)}([function(a,b,c){dctk.ewePerformance=dctk.ewePerformance||c(1)},function(a,b,c){var d=c(2),e=c(3),f=c(4),g=function(){};const h="Page Usable";var i=function(){return(new f).getLongGuid()},j=function(a){var b=[],c=l.findMark(a);c&&b.push(c);var d=l.findMeasure(a);return d&&b.push(d),b},k=function(){try{var a=j(h);return a&&a.length<1&&this.ctx&&this.ctx.pageName.search("Infosite")!==-1?[{startTime:0}]:a}catch(a){console.log(a)}};if(d&&d.ewePerformance)ewePerformance=d.ewePerformance;else{var l=e;ewePerformance={isPerfLoggingEnabled:g,mark:l.mark,measure:l.measure,markPageUsable:l.markPageUsable,getPageUsableTime:k,getEntriesByName:j,setPercentOfTrafficToLog:g,getPercentOfTrafficToLog:g,addData:g,initialDataSendRequested:!1,initialSend:g,setContext:l.setContext,findMark:l.findMark,ctx:l.ctx,clearMarks:l.clearMarks,justMarkPageUsable:l.justMarkPageUsable,publish:l.publish,getGuid:i,getFilteredPageUsableTime:l.getFilteredPageUsableTime};var m={pageName:(d.logging||{}).pageName||"page.undefined",deviceId:i(),requestId:d._requestId||"",siteId:d._siteId||""};ewePerformance.setContext(m)}a.exports=ewePerformance},function(a,b){a.exports=window.dctk=window.dctk||{}},function(a,b,c){"use strict";function d(a,b){if(!(a instanceof b))throw new TypeError("Cannot call a class as a function")}var e=function(){function a(a,b){for(var c=0;c<b.length;c++){var d=b[c];d.enumerable=d.enumerable||!1,d.configurable=!0,"value"in d&&(d.writable=!0),Object.defineProperty(a,d.key,d)}}return function(b,c,d){return c&&a(b.prototype,c),d&&a(b,d),b}}(),f="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(a){return typeof a}:function(a){return a&&"function"==typeof Symbol&&a.constructor===Symbol&&a!==Symbol.prototype?"symbol":typeof a};a.exports=function(a){function b(d){if(c[d])return c[d].exports;var e=c[d]={i:d,l:!1,exports:{}};return a[d].call(e.exports,e,e.exports,b),e.l=!0,e.exports}var c={};return b.m=a,b.c=c,b.d=function(a,c,d){b.o(a,c)||Object.defineProperty(a,c,{configurable:!1,enumerable:!0,get:d})},b.n=function(a){var c=a&&a.__esModule?function(){return a.default}:function(){return a};return b.d(c,"a",c),c},b.o=function(a,b){return Object.prototype.hasOwnProperty.call(a,b)},b.p="",b(b.s=3)}([function(a,b){var c;c=function(){return this}();try{c=c||Function("return this")()||(0,eval)("this")}catch(a){"object"===("undefined"==typeof window?"undefined":f(window))&&(c=window)}a.exports=c},function(a,b,c){(function(b){function d(a){h.isTestEnvironment()&&console.log(a)}function e(a){try{(h.isTestEnvironment()||g("paLogStore=true"))&&(f()||(b.paLogStore=[],b.paLogStoreSize=100),b.paLogStore.push(a),b.paLogStore.length>b.paLogStoreSize&&b.paLogStore.shift())}catch(a){d(a)}}function f(){return b&&b.paLogStore&&Array.isArray(b.paLogStore)}function g(a){return"undefined"!=typeof document&&"undefined"!=typeof document.cookie&&document.cookie.indexOf(a)!==-1}var h=c(2);a.exports={toLogStore:e,log:d}}).call(b,c(0))},function(a,b,c){(function(b){function c(){var a=!1;return a=e()&&"undefined"!=typeof location?Boolean(location.hostname.match(g)):["prod","production"].indexOf(b.env.NODE_ENV)===-1}function d(){return"undefined"!=typeof location&&"localhost"===location.hostname}function e(){return"undefined"!=typeof window}function f(){return e()&&window.performance}var g=/(?:(?:test|int|stress)\.expedia\.com|exp-(?:test|int)\.net|karmalab\.net|expedmz.com|staging.*\.(?:traveltainment\.de|myersmediagroup\.com)|localhost|docweb\.exp-tools\.net)$/i,h=function(){return f()&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart},i=function(){return f()&&("function"==typeof window.performance.mark||"function"==typeof window.performance.webkitMark)};a.exports={isTestEnvironment:c,isLocalEnvironment:d,isBrowser:e,isPerformanceTimingSupported:h,isPerformanceMarkSupported:i,isTrackingDisabled:function(){return e()&&navigator&&"1"===navigator.doNotTrack},isBeaconSupported:function(){return e()&&navigator&&"function"==typeof navigator.sendBeacon}}}).call(b,c(6))},function(a,b,c){var d=c(4);a.exports=new d},function(a,b,c){(function(b){function f(a,b){var c={};g(a,c),c.pageUsableTime=b,i.publish(c)}function g(a,b){"undefined"!=typeof a&&n.forEach(function(c){a.hasOwnProperty(c)&&("siteId"===c&&isNaN(a[c])?k("WARNING: siteId must be Integer!"):b[c]=a[c])})}function h(){return isNaN(b.siteid)?isNaN(b.site_id)?isNaN(b.siteId)?NaN:b.siteId:b.site_id:b.siteid}var i=c(5),j=c(8),k=c(1).log,l="Page Usable",m="Page Change",n=["deviceId","siteId","requestId","pageName","additionalData"],o=function(){function a(){var b=this,c=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};d(this,a),this.ctx={},this.setContext(c),this.findMark=function(a){return j.findMark(a)},this.findMeasure=function(a){return j.findMeasure(a)},this.clearMarks=function(a){return j.clearMarks(a)},this.mark=function(a){return j.mark(a)},this.measure=function(a,b,c){return j.measure(a,b,c)},this.pul=function(a,c){return"undefined"!=typeof b.puListener?void k("PageUsableListener has already been initialized"):(b.puListener=a,void(b.puScope=c))}}return e(a,[{key:"setContext",value:function(a){g(a,this.ctx)}},{key:"getFilteredPageUsableTime",value:function(){var a=this.getPageUsableTime();return a&&a.length>0&&(a=parseFloat((a[0].startTime/1e3).toFixed(2))),a}},{key:"justMarkPageUsable",value:function(a){var b=this;setTimeout(function(){b.findMark(l)?k("WARNING: marking a page that was already usable - value won't be updated - use reset() first"):(b.clearMarks(l),b.mark(l));var c=b.getFilteredPageUsableTime();"function"==typeof b.puListener&&b.puListener.call(b.puScope,c),"function"==typeof a&&a(c,b.ctx)},50)}},{key:"publish",value:function(a){if(this.setContext(a),this.findMark(l))try{f(this.ctx,this.getFilteredPageUsableTime())}catch(a){k("Unable to publish performance metrics"+a.message)}else k("WARNING: trying to publish before page being usable")}},{key:"markPageUsable",value:function(a,b){var c=this;this.setContext(a),this.justMarkPageUsable(function(a,d){if(isNaN(c.ctx.siteId)){var e=h();isNaN(e)||(d.siteId=parseInt(e,10))}c.publish(d),"function"==typeof b&&b(a,d)})}},{key:"getPageUsableTime",value:function(){var a=(this.findMark(l)||{}).startTime-((this.findMark(m)||{}).startTime||0);return Math.round(10*a)/10}},{key:"reset",value:function(a){k("performanceMetrics.reset()"),this.setContext(a),this.clearMarks(l),this.clearMarks(m),this.mark(m)}}]),a}();a.exports=o}).call(b,c(0))},function(a,b,c){function d(a){return!!(a&&a.deviceId&&a.pageName&&a.pageUsableTime&&a.requestId)}function e(a){if(!d(a))return g("Not valid PM formatted data: "),g(a),!1;this.requestBody=a,this.requestBody.utcTimestamp=Date.now(),this.requestBody.navigationTimingSupport=i.isPerformanceTimingSupported(),this.requestBody.performanceMarkSupport=i.isPerformanceMarkSupported(),this.requestBody.beaconApiSupport=i.isBeaconSupported();var b=h.sendBeacon(j+"/perfmetrics.json?persist=true",this.requestBody),c={publisher:k,status:"",sentData:this.requestBody};return"boolean"==typeof b?(c.status=b?"queued":"failed",f(c)):(b.onload=function(){c.status=b.status,f(c)},b.onerror=function(){c.status="error",f(c)},b.ontimeout=function(){c.status="timeout",f(c)}),b}var f=c(1).toLogStore,g=c(1).log,h=c(7),i=c(2),j=i.isLocalEnvironment()?"https://collector.test.expedia.com":"/cl/data",k="PM Publisher";a.exports={publish:e,isValid:d}},function(a,b){function c(){throw new Error("setTimeout has not been defined")}function d(){throw new Error("clearTimeout has not been defined")}function e(a){if(k===setTimeout)return setTimeout(a,0);if((k===c||!k)&&setTimeout)return k=setTimeout,setTimeout(a,0);try{return k(a,0)}catch(b){try{return k.call(null,a,0)}catch(b){return k.call(this,a,0)}}}function f(a){if(l===clearTimeout)return clearTimeout(a);if((l===d||!l)&&clearTimeout)return l=clearTimeout,clearTimeout(a);try{return l(a)}catch(b){try{return l.call(null,a)}catch(b){return l.call(this,a)}}}function g(){p&&n&&(p=!1,n.length?o=n.concat(o):q=-1,o.length&&h())}function h(){if(!p){var a=e(g);p=!0;for(var b=o.length;b;){for(n=o,o=[];++q<b;)n&&n[q].run();q=-1,b=o.length}n=null,p=!1,f(a)}}function i(a,b){this.fun=a,this.array=b}function j(){}var k,l,m=a.exports={};!function(){try{k="function"==typeof setTimeout?setTimeout:c}catch(a){k=c}try{l="function"==typeof clearTimeout?clearTimeout:d}catch(a){l=d}}();var n,o=[],p=!1,q=-1;m.nextTick=function(a){var b=new Array(arguments.length-1);if(arguments.length>1)for(var c=1;c<arguments.length;c++)b[c-1]=arguments[c];o.push(new i(a,b)),1!==o.length||p||e(h)},i.prototype.run=function(){this.fun.apply(null,this.array)},m.title="browser",m.browser=!0,m.env={},m.argv=[],m.version="",m.versions={},m.on=j,m.addListener=j,m.once=j,m.off=j,m.removeListener=j,m.removeAllListeners=j,m.emit=j,m.prependListener=j,m.prependOnceListener=j,m.listeners=function(a){return[]},m.binding=function(a){throw new Error("process.binding is not supported")},m.cwd=function(){return"/"},m.chdir=function(a){throw new Error("process.chdir is not supported")},m.umask=function(){return 0}},function(a,b){function c(a,b){var c=new XMLHttpRequest,d={method:"POST",headers:{"Content-type":"application/json"},body:b};return c.open(d.method,a,!0),c.setRequestHeader("Content-type","application/json"),c.send(JSON.stringify(d.body)),c}var d=function(){return"undefined"!=typeof navigator&&"function"==typeof navigator.sendBeacon},e=function(a,b){return d()?navigator.sendBeacon(a,JSON.stringify(b)):c(a,b)};a.exports.sendBeacon=e},function(a,b,c){(function(b){function c(){return"function"==typeof Date.now?Date.now():Number(new Date)}var d=function(){function a(){return"undefined"==typeof b.gaMarks&&(b.gaMarks=[]),b.gaMarks}function d(){return"undefined"==typeof b.gaMeasures&&(b.gaMeasures=[]),b.gaMeasures}function e(){return"function"==typeof(window.performance||{}).now?n.now():c()-o}function f(b){"function"==typeof(n||{}).mark?n.mark(b):"function"==typeof(n||{}).webkitMark?n.webkitMark(b):a().push({name:b,entryType:"mark",startTime:e(),duration:0})}function g(a){return h(l(),a)}function h(a,b){var c=a.filter(function(a){return a.name===b});return c.length>0?c[0]:void 0}function i(a){return h(k(),a)}function j(a,b,c){if("function"==typeof(n||{}).measure)n.measure(a,b,c);else if("function"==typeof(n||{}).webkitMeasure)n.webkitMeasure(a,b,c);else{var f=0,h=e();if(b){var i=g(b);i?f=i.startTime:((n||{}).timing||{})[b]&&(f=n.timing[b]-n.timing.navigationStart)}if(c){var j=g(c);j?h=j.startTime:((n||{}).timing||{})[c]&&(h=n.timing[c]-n.timing.navigationStart)}d().push({name:a,entryType:"measure",startTime:f,duration:h-f})}}function k(){return"function"==typeof(n||{}).getEntriesByType?n.getEntriesByType("measure"):"function"==typeof(n||{}).webkitGetEntriesByType?n.webkitGetEntriesByType("measure"):d()}function l(){return"function"==typeof(n||{}).getEntriesByType?n.getEntriesByType("mark"):"function"==typeof(n||{}).webkitGetEntriesByType?n.webkitGetEntriesByType("mark"):a()}function m(a){"function"==typeof(n||{}).clearMarks?n.clearMarks(a):b.gaMarks=l().filter(function(b){return b.name!==a})}var n=window.performance,o=((n||{}).timing||{}).navigationStart||c();return{mark:f,measure:j,getGaMarks:a,getGaMeasures:d,findMark:g,findMeasure:i,clearMarks:m,findSpecificRow:h}}();a.exports=d}).call(b,c(0))}])},function(a,b){var c=a.exports=function(a){this._short=a};c.prototype.getGuid=function(){return this._short=this.getCookies("DUAID"),this._short},c.prototype.getCookies=function(a){if("string"==typeof a&&(a={name:a}),null==a.cookies&&(a.cookies=document.cookie),a.cookies)for(var b=a.cookies.split(";"),c=0;c<b.length;c++){var d=b[c].match(/ *([^=]*) *(= *(.*))? */),e=this.safeDecodeURIComponent(d[1]),f=null==d[3]?"":this.safeDecodeURIComponent(d[3]);if(e===a.name)return f}},c.prototype.getLongGuid=function(){return this.getGuid(),this.getLong()},c.prototype.safeDecodeURIComponent=function(a){try{return decodeURIComponent(a)}catch(a){console.log(a)}},c.prototype.getLong=function(){return this._short},c.prototype.getShort=function(){return this._short?this._short.replace(/-/g,""):null}}]);
+        window.DCTKBootstrapIsLoaded = true;
+    }
+</script>
+    <script type="text/javascript">
+
+    window.dctk = window.dctk || {};
+
+    (function( window, logging, undefined ) {
+        logging.pageStartTime = new Date().getTime();
+        logging.pageName = "page.Marketing.Widgets.Searchform.Builder";
+        logging.guid = "ddfccc54-7d00-46f9-a453-2c17b60517e5";
+        logging.data = "responsiveUDS\u003dfalse|responsive\u003dtrue|uitk_v2\u003dtrue|";
+    })( window, window.dctk.logging = window.dctk.logging || {} );
+</script>
+
+<script src="https://b.travel-assets.com/dctk/2/js/cl-bundle-min.js"></script>
+
+    <!-- Time taken in millis: 1 ms -->
+
+<script>
+    
+
+    
+    $LAB
+    .queueScript("https://b.travel-assets.com/dctk/2/js/uis-dctk-core-bundle-min.js")
+
+    
+    
+
+    
+    /* Minimal DCTK interface before it's fully loaded */
+    var dctk = window.dctk || {};
+    if (!dctk.enabled) {
+        dctk.enabled = true;
+        dctk._createOnQueueStrategy = function () {
+            var strategy = function (callback) { strategy._queue.push(callback); };
+            strategy._queue = [];
+            return strategy;
+        };
+        dctk.onReady = dctk._createOnQueueStrategy();
+    }
+
+    dctk._siteId =  null ;
+    dctk._requestId =  null ;
+    dctk._guid =  "ddfccc54-7d00-46f9-a453-2c17b60517e5" ;
+    dctk._tpid =  1 ;
+    dctk._eapid =  0 ;
+    dctk._pageName =  "page.Marketing.Widgets.Searchform.Builder" ;
+    dctk.onReady(function () {
+        var storage = new dctk.StorageAccess("expAgentProfileId");
+        storage.remove();
+    });
+
+    
+        
+        $LAB.queueWait(function() {
+            try { dctk.initOmniture('{"accountName":"expedia1","omnitureProperties":{"charSet":"UTF-8","eVar56":"notRewardsMember","server":"www.expedia.com","eVar55":"anonymous | ","eVar54":"1033","eVar76":"true|GDPR|set\u003dfalse|yesSelected\u003dfalse","prop50":"SharedMappers 1.0.77","eVar18":"D\u003dpageName","eVar17":"D\u003dpageName","pageName":"page.Marketing.Widgets.Searchform.Builder","list1":"26153.1|14991.0|26334.0|30251.1|35737.1|99991.0|28693.1|25350.1|26017.0","activityId":"0336c726-fda3-47ff-af45-b75bfee7bb10","prop30":"1033","prop11":"-1","prop10":"8eb117f4-b2fd-4c8f-b593-45e26444dc5f|0336c726-fda3-47ff-af45-b75bfee7bb10","userType":"ANONYMOUS","prop13":"-1","prop12":"ddfccc54-7d00-46f9-a453-2c17b60517e5","eVar40":"NoPartnerTier"}}'); }
+            catch (error) { setTimeout(function() { throw error; }); }
+        });
+        
+        
+    
+</script>
+
+
+
+
+    <!--tlAbacusTest:25350.1-->
+<!--tlAbacusTest:26017.0-->
+<!--tlAbacusTest:99991.0-->
+<!--tlAbacusTest:28693.1-->
+<!--tlAbacusTest:30251.1-->
+<!--tlAbacusTest:35737.1-->
+<!--tlAbacusTest:14991.0-->
+<!--tlAbacusTest:26334.0-->
+<!--tlLang:1033-->
+<!--tlTUID:-1-->
+<!--tlAbacusTest:26153.1-->
+<!--tlpageName:page.Marketing.Widgets.Searchform.Builder-->
+
+
+
+  
+
+  
+  
+
+			
+
+
+		<script>
+			$LAB
+            //path to PRODUCTION
+                .queueScript('//www.expedia.com/static/default/default/scripts/exp/typeahead/Typeahead.v2.js');
+		</script>
+		<meta name="expweb" content="true" >
+
+		<meta name="oip.canTrack" content="true">
+		<script type="text/javascript">window.oip = {"canTrack":true,"canSell":true,"gdpr":{"yes":false,"set":false,"enabled":false},"ccpa":{"yes":false,"set":false,"enabled":true}}</script>
+
+<link rel="stylesheet" href="https://c.travel-assets.com/globalcontrols-service/content/7494d1124d90b4cf9f7f0157ca4696a0ebfa4041/styles/1/en_US/globalcontrols-min.css"/>
+			<!-- PGC style-->
+<script async src="https://a.travel-assets.com/platform-analytics-prime/1/platform-analytics-prime-amd.js"></script>
+
+
+<script>
+   var ab35737Val = 1;
+        require('PlatformAnalytics', function (PlatformAnalytics) {
+            var platformAnalytics = new PlatformAnalytics();
+            platformAnalytics.collect({"traceId":"0336c726-fda3-47ff-af45-b75bfee7bb10","adobeMappedData":{"ipaddress":"217.138.82.58","server":"www.expedia.com","eVar20":"true|GDPR|set=false|yesSelected=false,true|CCPA|set=false|yesSelected=false","prop60":"320-491","eVar2":"unclassified","channel":"unclassified","resolution":"800x1280","pageName":"page.Marketing.Widgets.Searchform.Builder","eVar70":"1-0","prop11":"-1","prop10":"0336c726-fda3-47ff-af45-b75bfee7bb10","prop13":"-1","prop12":"ddfccc54-7d00-46f9-a453-2c17b60517e5","eVar50":"web","prop14":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","eVar55":"ANONYMOUS","eVar54":1033,"eVar76":"true|GDPR|set=false|yesSelected=false,true|CCPA|set=false|yesSelected=false","eVar18":"D=pageName","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36","prop2":"unclassified.500","list1":"expedia.14991.55836.0|expedia.26017.66610.0|expedia.99991.99990.0|expedia.26153.77040.1|expedia.28693.78947.1|expedia.28095.77274.1|expedia.26334.67292.0|expedia.30251.102278.1|expedia.25350.74939.1|expedia.35737.102237.1","eVar80":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36","pageURL":"https://www.expedia.com/marketing/widgets/searchform","currencyCode":"USD","eVar61":"expedia.com"},"creationTimestamp":1601979621789,"context":{"cookieDomain":"expedia.com","pageIdentity":{"lineOfBusiness":"U","pageIdentifier":"page.Marketing.Widgets.Searchform.Builder","funnelLocation":500},"executeXdid":true,"fpCookieDomainPeriods":2,"tealiumAccountDetailsPWA":{"tealiumAccountName":"expedia","tealiumProfileName":"pwa-bex"},"cookieDomainPeriods":2,"beaconOffConfig":{"settings":{"adobeSuiteAccount":"","sendToAdobeClientSide":true,"sendToAdobeServerSide":false,"sendToS3":false,"adobeSuiteUrl":""},"rulesMatched":"","bucketing":{"experimentInstance":"99990","bucketValue":0,"experimentId":"99991"},"error":"No rule found for traceId=0336c726-fda3-47ff-af45-b75bfee7bb10 and duaid=ddfccc54-7d00-46f9-a453-2c17b60517e5. Using sendToAdobeClientSide=true"},"tealiumAccountDetails":{"tealiumAccountName":"expedia","tealiumProfileName":"main"},"entryPageView":false,"beaconEnabled":true,"newVisit":false},"tealiumContext":{"tealiumAccountDetailsPWA":{"tealiumAccountName":"expedia","tealiumProfileName":"pwa-bex"},"tealiumAccountDetails":{"tealiumAccountName":"expedia","tealiumProfileName":"main"}},"tealiumUtagData":{"lineOfBusiness":"unclassified","siteCountryCode":"US","tpid":1,"gaUserId":-1,"pageInfo":{"lineOfBusiness":"unclassified","requestURL":"https://www.expedia.com/marketing/widgets/searchform","funnelLocation":"FEATURES","currency":"USD","language":"en","langId":"1033","pageName":"page.Marketing.Widgets.Searchform.Builder","xLineOfBusiness":"UNCLASSIFIED"},"loggedUser":-1,"siteName":"www.expedia.com","language":"en","tuid":-1,"locale":"en_US","expUserProfileId":-1,"pageName":"page.Marketing.Widgets.Searchform.Builder","xLineOfBusiness":"UNCLASSIFIED","Geo":{"country":"gb","city":"london","latitude":51.5,"state":"en","longitude":-0.12},"eapid":0,"domain":"UNCLASSIFIED","funnelLocation":"FEATURES","context":{"site":{"companyCode":"10111","tpid":1,"eapid":0,"brandId":"expedia","operatingUnitId":"1001","siteId":1,"siteName":"www.expedia.com","jurisdictionCode":"USA","managementUnitCode":"1010","defaultCountry":"US"},"tests":[{"bucketValue":0,"experimentId":14991},{"bucketValue":0,"experimentId":26017},{"bucketValue":0,"experimentId":99991},{"bucketValue":1,"experimentId":26153},{"bucketValue":1,"experimentId":28693},{"bucketValue":1,"experimentId":28095},{"bucketValue":0,"experimentId":26334},{"bucketValue":1,"experimentId":30251},{"bucketValue":1,"experimentId":25350},{"bucketValue":1,"experimentId":35737}],"privacyContext":{"canTrack":true,"canSell":true,"optInPrivacySelection":{"yesSelected":false,"isSet":false},"dataProtectionGuideline":"GDPR"},"requestId":"0336c726-fda3-47ff-af45-b75bfee7bb10","hopScotchSessionId":"bb721bfc-2dd0-4b88-bb30-f7dd085baf6c","clientInfo":{"deviceCharacteristics":{"brandName":"Chrome","deviceOs":"Linux","mobileBrowserVersion":"85","resolutionHeight":800,"mobile":false,"deviceOsVersion":"x86_64","mobileBrowser":"Chrome","physicalScreenHeight":175,"modelName":"85","tablet":false,"resolutionWidth":1280,"wirelessDevice":false,"physicalScreenWidth":280},"os":"Linux","ipAddress":"217.138.82.58","fingerprintId":"","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36","ua":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36","requestMadeByBot":false,"coords":{"country":"gb","city":"london","latitude":51.5,"state":"en","longitude":-0.12}},"sessionId":"bb721bfc-2dd0-4b88-bb30-f7dd085baf6c","user":{"xVisitorId":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","accountType":"FULL","guid":"ddfccc54-7d00-46f9-a453-2c17b60517e5","registered":false,"tuid":-1,"userType":"ANONYMOUS","expUserProfileId":-1,"softAccount":false}},"siteId":1,"guid":"ddfccc54-7d00-46f9-a453-2c17b60517e5","brand":"expedia","currencyCode":"USD","lobDomain":"UNCLASSIFIED"},"version":"3.13.9","applicationName":"ExpWeb"});
+            platformAnalytics.publish();
+        });
+</script>
+
+</head>
+
+<body class="wrap cf ">
+
+
+  
+      <div class="popup_overlay"></div>
+    <div id="widgetContainer">
+        <div id="widgetHeader">
+
+<style>
+
+
+#buttonColorInput {
+    background-color: #FFCB00;
+}
+#buttonFontColorInput {
+    background-color: #3D3100;
+}
+#expedialogo {
+    background:url(/static/default/default/images/widgets/expedia_transparent_widgets.png) no-repeat scroll 0 0;
+    background-size:contain;
+    display:block;
+    height:27px;
+    width:104px;
+}
+
+@media handheld and (max-width:660px) and (min-width:555px) ,screen and (max-width:660px) and (min-width: 555px)
+{
+    #expedialogo
+    {
+        background:url(/static/default/default/images/widgets/Expedia_WidgetsLogo.png) no-repeat scroll 0 0;
+        background-size:cover;
+        height:22px;
+        width:22px;
+        display:block
+    }
+    #widgetLogoDiv{
+        padding-top: 15px;
+        float: left;
+        height: 50px;
+        width: 2em;
+    }
+}
+@media handheld and (max-width:555px) and (min-width: 480px) ,screen and (max-width:555px) and (min-width: 480px)
+{
+    #widgetLogoDiv{
+        width: 0%;
+        visibility: hidden;
+    }
+    #widgetHeaderText{
+        padding-top: 20px;
+        overflow: hidden;
+        position:absolute;
+        padding-left: 0.6%;
+    }
+}
+</style>
+<script type="text/javascript">
+    var siteid = 1;
+    var buttonDefaultColor= "#"+"FFCB00";
+    var buttonDefaultFontColor="#"+ "3D3100";
+</script>        </div>
+
+<div id="leftPanel" class="leftBuilderPanel">
+  <div id="leftPanelBody">
+      <div id="leftPanelHeading">
+          <h2>Deals Widget Builder</h2>
+      </div>
+      <div id="leftPanelInner">
+          <div id="trackingTypeOuter">
+              <label id="trackingTypeLabel" class="select icon icon-toggle180" for="trackingType" data-vtest-area="select_list" data-vtest-id="select_list">
+                  <span class="label">Tracking Type
+                      <span id="trackingTypeStar" class='icon icon-required required' aria-hidden='true'>
+                      </span><span class='alt'>required</span></span>
+<select name="select" id="trackingType" aria-describedby="error" data-validation-msg="You must select an affiliate network." aria-required="true" onchange="trackingTypeDisplay();">
+
+<option value="0" selected="true">Select a network</option>
+
+            <option value="1">CJ</option>
+
+          <option value="2">CoBrand</option>
+
+          <option value="3">OLA</option>
+
+          <option value="4">DirectPartner</option>
+
+            <option value="5">PHG</option>
+
+
+
+
+
+
+
+</select>
+                  <p id="errorTrackingType" class="uitk-validation-error visuallyhidden">You must select an affiliate network.</p>
+              </label>
+          </div>
+
+          <div id="trackingTypeInner">
+              <div id="cjTracking">
+                  <h2>CJ Tracking Information</h2>
+
+
+<label class="text" for="pid">
+<span class="label">PID<span class="icon icon-required  required" aria-hidden="true"></span><span class="alt">required</span></span>
+
+<input type="text" id="pid"                                                                                 aria-required="true" />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="pidError" class="uitk-validation-error visuallyhidden">PID is mandatory.</p>
+                  <p id="pidErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+
+<label class="text" for="sid">
+<span class="label">SID</span>
+
+<input type="text" id="sid"                                                                                 />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="sidErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+              </div>
+
+              <div id="cobrandTracking">
+                  <h2>CoBrand Tracking Information</h2>
+
+
+<label class="text" for="eapid">
+<span class="label">EAPID<span class="icon icon-required  required" aria-hidden="true"></span><span class="alt">required</span></span>
+
+<input type="text" id="eapid"                                                                                 aria-required="true" />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="eapidError" class="uitk-validation-error visuallyhidden">EAPID is mandatory.</p>
+                  <p id="eapidErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+                  <div id="omnitureOuter">
+                      <label id="omnitureTrackingCodeLabel" class="text">
+                          <span class="label">Format</span>
+                      </label>
+                      <div id="omnitureTrackingCodeRow">
+                          <div id="omnitureTrackingCodeCol1">
+
+<label class="select icon icon-toggle180" for="omnitureTrackingCodeId">
+<span class="label"></span>
+
+
+
+<select          name="omnitureTrackingCode"          id="omnitureTrackingCodeId"><option value="0"selected></option><option value="olacid">OLACID</option><option value="mdpcid">MDPCID</option><option value="affcid">AFFCID</option><option value="semcid">SEMCID</option><option value="emlcid">EMLCID</option><option value="brandcid">BRANDCID</option></select>
+
+
+
+
+
+
+
+
+</label>
+
+                          </div>
+                          <div id="omnitureTrackingCodeCol2">
+
+<label class="text" for="omnitureTrackingCodeVal">
+<span class="label"></span>
+
+<input type="text" id="omnitureTrackingCodeVal"                                                                                 />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                          </div>
+                      </div>
+                      <div id="omnitureRow1">
+                          <div id="omniture_tag1">
+
+<label class="text" for="omnitureTag1">
+<span class="label">Omniture Tag 1</span>
+
+<input type="text" id="omnitureTag1"                                                                                 />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                              <p id="omnitureTag1ErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+                          </div>
+                          <div id="omniture_tag2">
+
+<label class="text" for="omnitureTagValue1">
+<span class="label">Value</span>
+
+<input type="text" id="omnitureTagValue1"                                                                                 />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                              <p id="omnitureTagValue1ErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+                          </div>
+                      </div>
+                      <div id="omniture_tag3">
+
+<label class="text" for="omnitureTag2">
+<span class="label">Omniture Tag 2</span>
+
+<input type="text" id="omnitureTag2"                                                                                 />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                          <p id="omnitureTag2ErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+                      </div>
+                      <div id="omniture_tag4">
+
+<label class="text" for="omnitureTagValue2">
+<span class="label">Value</span>
+
+<input type="text" id="omnitureTagValue2"                                                                                 />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                          <p id="omnitureTagValue2ErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div id="olaTracking">
+                  <h2>OLA Tracking Information</h2>
+
+
+<label class="text" for="clicktag">
+<span class="label">ClickTag</span>
+
+<input type="text" id="clicktag"                                                                                 />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="clicktagErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+
+<label class="text" for="olacid">
+<span class="label">Olacid<span class="icon icon-required  required" aria-hidden="true"></span><span class="alt">required</span></span>
+
+<input type="text" id="olacid"                                                                                 aria-required="true" />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="olacidError" class="uitk-validation-error visuallyhidden">Olacid is mandatory.</p>
+                  <p id="olacidErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+              </div>
+
+              <div id="directPartnerTracking">
+                  <h2>Direct Partner Tracking Information</h2>
+
+
+<label class="text" for="clicktagDP">
+<span class="label">ClickTag</span>
+
+<input type="text" id="clicktagDP"                                                                                 />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="clicktagDPErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+
+<label class="text" for="mdpcid">
+<span class="label">Mdpcid<span class="icon icon-required  required" aria-hidden="true"></span><span class="alt">required</span></span>
+
+<input type="text" id="mdpcid"                                                                                 aria-required="true" />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="mdpcidError" class="uitk-validation-error visuallyhidden">Mdpcid is mandatory.</p>
+                  <p id="mdpcidErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+
+              </div>
+
+              <div id="phgTracking">
+                  <h2>PHG Tracking Information</h2>
+
+
+<label class="text" for="camref">
+<span class="label">camref<span class="icon icon-required  required" aria-hidden="true"></span><span class="alt">required</span></span>
+
+<input type="text" id="camref"                                                                                 aria-required="true" />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="camrefError" class="uitk-validation-error visuallyhidden">camref is mandatory.</p>
+                  <p id="camrefErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+
+<label class="text" for="pubref">
+<span class="label">pubref</span>
+
+<input type="text" id="pubref"                                                                                 />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="pubrefErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+              </div>
+              <div id="affiliateWindowTracking">
+                  <h2>Affiliate Window Tracking Information</h2>
+
+<label class="text" for="publisherId">
+<span class="label">publisher id<span class="icon icon-required  required" aria-hidden="true"></span><span class="alt">required</span></span>
+
+<input type="text" id="publisherId"                                                                                 aria-required="true" />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="publisherIdError" class="uitk-validation-error visuallyhidden">publisher id is mandatory.</p>
+                  <p id="publisherIdErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+
+<label class="text" for="clickref">
+<span class="label">clickref</span>
+
+<input type="text" id="clickref"                                                                                 />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="clickrefErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+              </div>
+              <div id="zanoxTracking">
+                  <h2>Zanox Tracking Information</h2>
+
+<label class="text" for="zxuserId">
+<span class="label">ZXUserID<span class="icon icon-required  required" aria-hidden="true"></span><span class="alt">required</span></span>
+
+<input type="text" id="zxuserId"                                                                                 aria-required="true" />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="zxuserIdError" class="uitk-validation-error visuallyhidden">ZXUserID is mandatory.</p>
+                  <p id="zxuserIdErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+              </div>
+              <div id="tradeDoublerTracking">
+                  <h2>Trade Doubler Tracking Information</h2>
+
+<label class="text" for="affiliateId">
+<span class="label">affiliate id<span class="icon icon-required  required" aria-hidden="true"></span><span class="alt">required</span></span>
+
+<input type="text" id="affiliateId"                                                                                 aria-required="true" />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="affiliateIdError" class="uitk-validation-error visuallyhidden">affiliate id is mandatory.</p>
+                  <p id="affiliateIdErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+
+<label class="text" for="graphicId">
+<span class="label">graphic id</span>
+
+<input type="text" id="graphicId"                                                                                 />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="graphicIdErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+              </div>
+              <div id="valueCommerceTracking">
+                  <h2>Value Commerce Tracking Information</h2>
+
+<label class="text" for="partnerId">
+<span class="label">Site ID<span class="icon icon-required  required" aria-hidden="true"></span><span class="alt">required</span></span>
+
+<input type="text" id="partnerId"                                                                                 aria-required="true" />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="partnerIdError" class="uitk-validation-error visuallyhidden">Site ID is mandatory.</p>
+                  <p id="partnerIdErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+
+<label class="text" for="commissionPid">
+<span class="label">PID<span class="icon icon-required  required" aria-hidden="true"></span><span class="alt">required</span></span>
+
+<input type="text" id="commissionPid"                                                                                 />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="commissionPidError" class="uitk-validation-error visuallyhidden">PID is mandatory.</p>
+                  <p id="commissionPidErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+              </div>
+              <div id="linkShareTracking">
+                  <h2>Link Share Tracking Information</h2>
+                  <div id="linkshareRow1">
+                      <div id="linksharecell1">
+
+<label class="text" for="encryptedPid">
+<span class="label">Site ID<span class="icon icon-required  required" aria-hidden="true"></span><span class="alt">required</span></span>
+
+<input type="text" id="encryptedPid"                                                                                 aria-required="true" />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                          <p id="encryptedPidError" class="uitk-validation-error visuallyhidden">Site ID is mandatory.</p>
+                          <p id="encryptedPidErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+                      </div>
+                      <div id="linksharecell2">
+
+<label class="text" for="offerId">
+<span class="label">ID Offer<span class="icon icon-required  required" aria-hidden="true"></span><span class="alt">required</span></span>
+
+<input type="text" id="offerId"                                                                                 />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                          <p id="offerIdError" class="uitk-validation-error visuallyhidden">ID Offer is mandatory.</p>
+                          <p id="offerIdErrorInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+                      </div>
+                  </div>
+                  <div id="linkshareRow2">
+                      <div id="linksharecell3">
+
+<label class="text" for="type">
+<span class="label">Type<span class="icon icon-required  required" aria-hidden="true"></span><span class="alt">required</span></span>
+
+<input type="text" id="type"                                                                                 aria-required="true" />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                          <p id="typeError" class="uitk-validation-error visuallyhidden">Type is mandatory.</p>
+                          <p id="typeInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+                      </div>
+                      <div id="linksharecell4">
+
+<label class="text" for="tmpid">
+<span class="label">ID Temp<span class="icon icon-required  required" aria-hidden="true"></span><span class="alt">required</span></span>
+
+<input type="text" id="tmpid"                                                                                 />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                          <p id="tmpidError" class="uitk-validation-error visuallyhidden">ID Temp is mandatory.</p>
+                          <p id="tmpidInvalid" class="uitk-validation-error visuallyhidden">Special characters (> < & ' ") are not valid</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div id="widgetSizeOuter">
+              <label id="widgetSizeLabel" class="select icon icon-toggle180" for="widgetSize">
+                  <span class="label">Select a Size</span>
+              </label>
+              <label id="heightOptionLabel"  class="select icon icon-toggle180" for="heightOption">
+                  <span class="label size-label">Height (min: 250px | max: 600px)</span>
+<select name="heightOption" id="heightOption">
+<option value="rel" selected>Relative (%)</option>
+<option value="fix" >Fixed (in pixels)</option>
+</select>
+
+<label class="text" for="widgetHeight">
+<span class="label"></span>
+
+<input type="text" id="widgetHeight"                                                                                 aria-required="true" />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="widgetHeightFixedError" class="uitk-validation-error visuallyhidden">Please provide correct size (min: 250px | max: 600px)</p>
+                  <p id="widgetHeightRelativeError" class="uitk-validation-error visuallyhidden">Please provide correct size in percentage</p>
+              </label>
+              <label id="widthOptionLabel"  class="select icon icon-toggle180" for="widthOption">
+                  <span class="label size-label">Width (min: 300px | max: 970px)</span>
+<select name="widthOption" id="widthOption">
+<option value="rel" selected>Relative (%)</option>
+<option value="fix" >Fixed (in pixels)</option>
+</select>
+
+<label class="text" for="widgetWidth">
+<span class="label"></span>
+
+<input type="text" id="widgetWidth"                                                                                 aria-required="true" />
+
+
+
+
+
+
+
+
+
+
+</label>
+
+                  <p id="widgetWidthFixedError" class="uitk-validation-error visuallyhidden">Please provide correct size (min: 300px | max: 970px)</p>
+                  <p id="widgetWidthRelativeError" class="uitk-validation-error visuallyhidden">Please provide correct size in percentage</p>
+              </label>
+          </div>
+
+          <div id="lengthOfStayOuter">
+              <label id="lengthOfStayLabel" class="select icon icon-toggle180" for="lengthOfStay" data-vtest-area="select_list" data-vtest-id="select_list">
+                  <span class="label">Length of Stay
+                      <span id="lengthOfStayStar" class='icon icon-required required' aria-hidden='true'>
+                      </span><span class='alt'>required</span></span>
+<select name="select" id="lengthOfStay" aria-describedby="error" aria-required="true" onchange="">
+<option value="2">2 days</option>
+<option value="3">3 days</option>
+<option value="5">5 days</option>
+<option value="7" selected="true">7 days</option>
+<option value="10">10 days</option>
+<option value="14">14 days</option>
+</select>
+              </label>
+          </div>
+
+          <div id="dealsDestinationOuter">
+              <label id="destinationLabel" class="select icon icon-toggle180" for="dealsDestination" data-vtest-area="select_list" data-vtest-id="select_list">
+                  <span class="label">Destination
+                      <span id="destinationStar" class='icon icon-required required' aria-hidden='true'>
+                      </span><span class='alt'>required</span></span>
+<select name="select" id="dealsDestination" aria-describedby="error" aria-required="true">
+<option value="-1">Select a Destination</option>
+  <option value="LAS" selected>Las Vegas, NV</option>
+  <option value="CUN" >Cancun, Quintana Roo, Mexico</option>
+  <option value="PUJ" >Punta Cana, Dominican Republic</option>
+  <option value="NYC" >New York, NY</option>
+  <option value="MIA" >Miami, FL</option>
+  <option value="ORL" >Orlando, FL</option>
+  <option value="MBJ" >Montego Bay, Jamaica</option>
+  <option value="SJU" >San Juan, Puerto Rico</option>
+  <option value="PVR" >Puerto Vallarta, Jalisco, Mexico</option>
+  <option value="HNL" >Honolulu, HI</option>
+  <option value="SJD" >San Jose del Cabo, Baja California Sur, Mexico</option>
+  <option value="PAR" >Paris, France</option>
+  <option value="AUA" >Oranjestad, Aruba</option>
+  <option value="OGG" >Kahului, HI</option>
+  <option value="MCO" >Orlando, FL</option>
+  <option value="MSY" >New Orleans, LA</option>
+  <option value="LON" >London, England, UK</option>
+  <option value="NAS" >Nassau, Bahamas</option>
+  <option value="SAN" >San Diego, CA</option>
+  <option value="CHI" >Chicago, IL</option>
+  <option value="ROM" >Rome, Italy</option>
+  <option value="QSF" >San Francisco, CA</option>
+  <option value="LAX" >Los Angeles, CA (LAX-Los Angeles Intl.)</option>
+  <option value="QLA" >Los Angeles, CA (QLA-All Airports)</option>
+  <option value="FLL" >Fort Lauderdale, FL</option>
+  <option value="PHX" >Phoenix, AZ</option>
+</select>
+                  <p id="errorDestination" class="uitk-validation-error visuallyhidden"></p>
+              </label>
+          </div>
+
+          <div id="widgetOpen">
+              <h2>Where would you like the widget links to open?</h2>
+              <div id="dealsWidgetOpenStyleInner">
+
+<label class="check" for="widgetOpenStyleSameWindow">
+
+
+<input type="radio" id="widgetOpenStyleSameWindow"          name="widgetOpenStyleWindow"          value="1"                   checked                                             />
+
+
+
+
+
+<span class="inline-label">Same Window (will open in the same window)</span>
+
+
+
+
+</label>
+
+
+<label class="check" for="widgetOpenStyleNewWindow">
+
+
+<input type="radio" id="widgetOpenStyleNewWindow"          name="widgetOpenStyleWindow"          value="2"                                                               />
+
+
+
+
+
+<span class="inline-label">New Window (will open in a new browser/tab)</span>
+
+
+
+
+</label>
+
+              </div>
+          </div>
+          <div id="dealsBlankDiv"></div>
+          <div id="dealsSubmitButton">
+<button          type="button"               class="btn-secondary btn-action"    id="dealsWidgetBuilderSubmit"><span class="btn-label">Build Widget</span></button>
+          </div>
+          <div id="dealsResetButton">
+<button          type="button"               class="btn-secondary btn-action"    id="dealsWidgetBuilderReset"><span class="btn-label">Reset</span></button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div id="widgetsFooter">
+<!--PGC http://c.travel-assets.com/globalcontrols-service/content/7494d1124d90b4cf9f7f0157ca4696a0ebfa4041/htmls/1/en_US/footer-wrap-open.html -->
+<div data-global-control="footer" id="site-footer-background" class="site-footer-background">
+<div id="site-footer-wrap" class="site-footer-wrap cols-nested">
+
+<!--PGC http://c.travel-assets.com/globalcontrols-service/content/7494d1124d90b4cf9f7f0157ca4696a0ebfa4041/htmls/1/en_US/partner-add-hotel.html -->
+<div id="partner-add-hotel-container"
+      class="partner-add-hotel-show-btn"
+data-url=https://join.expediapartnercentral.com
+
+   data-qualifier_app_url=//www.expediapartnercentral.com/{LOCALE}/list
+
+
+>
+  <a
+    href="{URL}/LangCode/{LANGID}?utm_source={POS}&utm_medium=referral&utm_campaign={PAGE_NAME}&utm_content=footer-btn"
+    rel="nofollow noopener"
+    target="_blank">
+    Add your property to Expedia
+  </a>
+</div>
+
+
+<!--PGC http://c.travel-assets.com/globalcontrols-service/content/7494d1124d90b4cf9f7f0157ca4696a0ebfa4041/htmls/1/en_US/copyright-logo.html -->
+      <div class="badge-container">
+         <a href="https://www.expediagroup.com" target="_blank" rel="noopener noreferrer"><img id="EG-logo" alt="Expedia Group Logo. Opens in a new window." src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg"></a>
+      </div>
+
+<!--PGC http://c.travel-assets.com/globalcontrols-service/content/7494d1124d90b4cf9f7f0157ca4696a0ebfa4041/htmls/1/en_US/footer-wrap-close.html -->
+</div>
+</div>
+
+<!-- PGC footer -->
+<script type="text/javascript">
+    var utag_data = {"context":{"user":{"guid":"ddfccc54-7d00-46f9-a453-2c17b60517e5","tuid":"-1","expUserProfileId":-1,"xVisitorId":"","gdprDeleted":false,"isTaapUser":false},"site":{"siteId":1,"siteName":"www.expedia.com","eapid":0,"tpid":1,"jurisdictionCode":"USA"},"requestId":"0336c726-fda3-47ff-af45-b75bfee7bb10","parentRequestId":"0336c726-fda3-47ff-af45-b75bfee7bb10","tests":[{"experimentId":26153,"bucketValue":1},{"experimentId":14991,"bucketValue":0},{"experimentId":26334,"bucketValue":0},{"experimentId":30251,"bucketValue":1},{"experimentId":35737,"bucketValue":1},{"experimentId":99991,"bucketValue":0},{"experimentId":28693,"bucketValue":1},{"experimentId":25350,"bucketValue":1},{"experimentId":26017,"bucketValue":0}],"marketingAttribution":{"campaignIdTimestamp":0,"campaignIdVisitTimestamp":0,"emailIdTimestamp":0,"distributionPartnersTimestamp":0,"searchEngineMarketingCodeTimestamp":0,"affiliateMarketingCodeTimestamp":0,"onlineAdvertisingCodeTimestamp":0,"intraCompanyMarketingCodeTimestamp":0,"restrictedLastTouchTimestamp":0,"searchEngineOrganicCodeTimestamp":0,"googleClickIdentifierTimestamp":0,"searchEngineMarketingDetailsTimestamp":0},"hopScotchSessionId":"8eb117f4-b2fd-4c8f-b593-45e26444dc5f","privacyContext":{"canTrack":true,"dataProtectionGuideline":"GDPR","optInPrivacySelection":{"isSet":false,"yesSelected":false}}},"utcTimestamp":1601979621789,"entity":{"productTypes":[]},"pageInfo":{"pageName":"page.Marketing.Widgets.Searchform.Builder","langId":"1033","xLineOfBusiness":"UNCLASSIFIED","language":"en","requestURL":"https://www.expedia.com/marketing/widgets/searchform","isDealsModulePresent":false,"isHotelConfXSellHotelClicked":false,"isHotelConfXSellCarClicked":false},"channelTracking":{"hwCustomerId":""},"tvylChannelTracking":{}};
+</script>
+
+
+
+<script>
+    var tealiumSettingInfo = {
+        "tealiumProfilename" : "main",
+        "tealiumUtagAccount" : "expedia",
+            "tealiumEnable":"true",
+        "tealiumSafeFramesEnabled": "false",
+        "tealiumEnvironment" : "prod",
+        "enableDctkSync": true
+    };
+
+    (function() {
+        var requireAvailable = typeof require === "function" && actualFunction(require) && typeof define === "function" && actualFunction(define);
+        // check if require() is a dummy function just returning 'false'
+        function actualFunction(testedFunction) {
+            try {
+                testedFunction();
+            } catch (e) {
+                return true;
+            }
+            return false;
+        }
+
+        if (requireAvailable) {
+            define('tealium-settings', [], function() {
+                return tealiumSettingInfo;
+            });
+        }
+                (function(a,b,c,d){
+                    a='//tags.tiqcdn.com/utag/expedia/main/prod/utag.js';
+                    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+                    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+                })();
+    })();
+</script>    </div>
+            <!-- PGC script -->
+<script type="text/javascript" src="https://a.travel-assets.com/globalcontrols-service/content/7494d1124d90b4cf9f7f0157ca4696a0ebfa4041/scripts/1/en_US/globalcontrols-min.js" async defer></script>
+<script>define('env', function() {return {"pageModelTimeout":3000,"airlinesTimeout":2000,"cruiseEndpoint":"/cruise/search/api/options","cobrandS3Path":"https://b.travel-assets.com/nexus-site-tooling-web/prod","taapHeaderBundleUrl":"https://taap-ui-bundles.expediapartnersolutions.com","cartGcApiUrl":"https://a.travel-assets.com/cart-gc-api/cart-gc-api.js","envAirnz":"prod","env":"prod","locale":"nb_NO"}});</script><!--PGC globalcontrols []-->
+    
+    
+
+    
+                <script>
+                var widgetMinWidth = "250";
+                var widgetMaxWidth = "970";
+                var widgetMinHeight = "250";
+                var widgetMaxHeight = "600";
+                $LAB
+.queueScript("https://a.travel-assets.com/bundles/expweb/marketingWidgets/marketingsearchformwidgetbuilderjs-6662813fc8b11a2ed945619df614c9c5-min.js")            </script>
+
+
+    
+    <script>define('uitk_messages',['uitk_i18n'],function(I18n){I18n.translations=I18n.translations||{};I18n.translations['en_US']={"cancel":"Cancel","tabs_no_total":"Tab","map_complimentary_info":"Complementary map information","close_button_menu_closed":"Close button is selected and the menu has closed","date_picker_show_months":"Showing","media_gallery_next_default":"Next image, {{arg0}} total items.","carousel_single_item_in_view":"{{arg0}}: item {{arg1}} of {{arg2}}.","off_canvas_toggle_closed":"Sidebar has closed","twitter":"Twitter","carousel_group_number_label":"Group","start_day_of_the_week":"0","resp_sort_bar_more_label":"More","pagination_showing_results":"Showing Results {{arg0}} - {{arg1}} of {{arg2}}","current_page":"current page","selected":"selected","pagination_select_page":"Select Page","date_separator":"/","months":"[January, February, March, April, May, June, July, August, September, October, November, December]","map_close":"Close Map","resp_sort_bar_results_label":"{{arg0}} button selected. Button {{arg1}} of {{arg2}}","carousel_multiple_items_in_view":"{{arg0}}: items {{arg1}} to {{arg2}} of {{arg3}}.","drawer_filter_close":"Filter panel is now closed. Back in content area","pagination_goto_page":"Go to page","content_slider_previous_label":"previous page","carousel_previous_label":"{{arg0}}: previous group","pagination_top_of_page":"Top of page","playback_change_search":"Change search","airport":"Airports","date_picker_date_disabled":"date disabled","media_gallery_no_image":"No image","pagination_prev":"Prev","item_selected_menu_closed":"You selected {{arg0}} and the menu has closed","date_picker_start_valid_range":"Start of valid date range","date_picker_close_hint":"Close the Date Picker or proceed to select a date","modal_loader_title":"Loading...","carousel_beginning":"Beginning of items.","date_picker_use_hint_touch":"Choose a date from the table below","drawer_nav_open":"Main navigation is now open","clear_button_screen_reader_text":"Clear field: {{arg0}}. Field value:","off_canvas_close":"Close sidebar","field_cleared":"Field cleared.","off_canvas_toggle_opened":"Sidebar has opened","carousel_next_label":"{{arg0}}: next group","city":"Region/City","trainstation":"Train Station","collapsed":"collapsed","media_gallery_previous_image_button":"Previous image button,","share_with":"Share With:","date_picker_next_month":"next month","content_slider_next_label":"next page","remove":"Remove","modal_loader_text_default":"Loading","expanded":"expanded","media_gallery_count":"{{arg0}} of {{arg1}}.","tabs_control":"Tab {{arg0}} of {{arg1}}","rating_stars_text":"out of {{arg0}}","metrostation":"Metro Station","date_picker_prev_month":"previous month","resp_sort_bar_sort_label":"Sort by:","media_gallery_next_image_button":"Next image button,","hotel":"Hotels","share":"Share","drawer_default_close":"Drawer is now closed. Back in content area","pagination_showing_results_in_pages":"Showing Page {{arg0}} of {{arg1}}","close":"Close","email":"Email","sort_bar_toggle_column":"toggle column","address":"Address","date_picker_full_days_of_the_week":"[Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]","drawer_nav_close":"Main navigation is now closed. Back in content area","facebook":"Facebook","date_picker_use_hint":"Enter a date in {{arg0}} format or choose one from the table below","date_picker_date_empty":"empty","date_picker_date_hbs_placeholder":"mm/dd/yyyy","google_plus":"Google+","pinterest":"Pinterest","days_of_the_week":"[S, M, T, W, T, F, S]","tweet":"Tweet","typeahead_results_displayed_one":"1 suggestion is available for your convenience.  Use the arrow keys to navigate the list.","date_picker_end_valid_range":"End of valid date range","media_gallery_previous_default":"Previous image, {{arg0}} total items.","media_gallery_showing_item":"Show item {{arg0}} of {{arg1}}.","pagination_next":"Next","attraction":"Attractions","carousel_end":"No further items available.","drawer_default_open":"Drawer is now open","carousel_default_name":"Carousel","content_slider_page_number_label":"Page","media_gallery_current_item":"Currently selected item.","nights_text":"[one night, nights]","date_format":"mmddyy","typeahead_results_displayed_other":"{{arg0}} suggestions are available for your convenience. Use the arrow keys to navigate the list.","pagination_go_to_page":"Go to page {{arg0}}","drawer_filter_open":"Filter panel is now open"};});</script>
+
+
+    <script>
+
+      define('uitk_domReady', function(){
+        return true;
+      });
+    </script>
+    <div id="uitk-live-announce" class="visuallyhidden" aria-live="assertive"></div>
+</body>
+</html>
