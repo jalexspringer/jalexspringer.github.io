@@ -3,10 +3,6 @@ layout: default
 title: Alex Springer
 ---
 
-AI Commerce | Content Attribution | Transparency Standards
-
----
-
 ## About
 
 Alex has spent over a decade at the intersection of content, commerce, and advertising — building and scaling partnership technology across the US, UK, and Europe. He works in the impact.com strategy team focused on AI and data products that empower brands and partners to work together more effectively.
