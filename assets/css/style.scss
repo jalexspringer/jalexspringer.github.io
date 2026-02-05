@@ -3,117 +3,26 @@
 
 @import "jekyll-theme-minimal";
 
-/* ── CSS Custom Properties ── */
-:root {
-  --bg-color: #fff;
-  --text-color: #333;
-  --heading-color: #222;
-  --link-color: #1e6bb8;
-  --link-hover-color: #0d4a80;
-  --border-color: #e0e0e0;
-  --accent-color: #1e6bb8;
-  --sidebar-bg: transparent;
-  --card-bg: #f8f9fa;
-  --card-border: #1e6bb8;
-  --social-bg: #f0f0f0;
-  --social-hover-bg: #1e6bb8;
-  --social-color: #555;
-  --social-hover-color: #fff;
-  --toggle-bg: #e0e0e0;
-  --toggle-color: #555;
-  --footer-color: #888;
-}
-
-[data-theme="dark"] {
-  --bg-color: #1a1a2e;
-  --text-color: #d0d0d0;
-  --heading-color: #e0e0e0;
-  --link-color: #5dade2;
-  --link-hover-color: #85c1e9;
-  --border-color: #2a2a4a;
-  --accent-color: #5dade2;
-  --sidebar-bg: transparent;
-  --card-bg: #16213e;
-  --card-border: #5dade2;
-  --social-bg: #16213e;
-  --social-hover-bg: #5dade2;
-  --social-color: #aaa;
-  --social-hover-color: #fff;
-  --toggle-bg: #2a2a4a;
-  --toggle-color: #d0d0d0;
-  --footer-color: #777;
-}
-
-/* ── Base overrides ── */
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-/* ── Sidebar header overrides ── */
-header {
-  text-align: center;
-}
-
-header h1 {
-  text-align: left;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: var(--heading-color);
-}
-
-a {
-  color: var(--link-color);
-  transition: color 0.2s ease;
-}
-
+/* Fix hover layout shift from theme */
 a:hover {
-  color: var(--link-hover-color);
   font-weight: inherit;
 }
 
-header h1 a {
-  color: var(--heading-color);
-}
-
-header h1 a:hover {
-  color: var(--link-color);
-}
-
-header p {
-  color: var(--text-color);
-}
-
-section {
-  color: var(--text-color);
-}
-
-hr {
-  border-color: var(--border-color);
-}
-
-footer p {
-  color: var(--footer-color);
-}
-
-/* ── Headshot ── */
+/* Headshot */
 .headshot {
   border-radius: 50%;
   object-fit: cover;
-  object-position: 35% 25%;
-  border: 3px solid var(--accent-color);
+  object-position: center 20%;
+  border: 3px solid #1e6bb8;
   display: block;
-  margin: 0 auto 16px;
+  margin: 0 0 16px;
 }
 
-/* ── Social icons ── */
+/* Social icons */
 .social-icons {
   display: flex;
   gap: 12px;
   margin: 16px 0;
-  justify-content: center;
 }
 
 .social-icon {
@@ -123,92 +32,41 @@ footer p {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: var(--social-bg);
-  color: var(--social-color);
+  background: #f0f0f0;
+  color: #555;
   text-decoration: none;
   transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
 .social-icon:hover {
-  background: var(--social-hover-bg);
-  color: var(--social-hover-color);
+  background: #1e6bb8;
+  color: #fff;
   transform: translateY(-2px);
   font-weight: inherit;
 }
 
-/* ── Dark mode toggle ── */
-.dark-mode-toggle {
-  background: var(--toggle-bg);
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--toggle-color);
-  transition: background 0.2s ease, color 0.2s ease;
-  margin: 12px auto 0;
-}
-
-.dark-mode-toggle:hover {
-  color: var(--accent-color);
-}
-
-/* Show/hide sun/moon icons */
-.icon-moon { display: none; }
-.icon-sun  { display: block; }
-
-[data-theme="dark"] .icon-moon { display: block; }
-[data-theme="dark"] .icon-sun  { display: none; }
-
-/* ── Section headings ── */
-section h2 {
-  border-bottom: 2px solid var(--accent-color);
-  padding-bottom: 6px;
-  margin-top: 2em;
-}
-
-section h2:first-child {
-  margin-top: 0;
-}
-
-/* ── Featured card ── */
+/* Featured card */
 .featured-card {
-  background: var(--card-bg);
-  border-left: 4px solid var(--card-border);
+  background: #f8f9fa;
+  border-left: 4px solid #1e6bb8;
   padding: 20px 24px;
   margin: 1.5em 0;
   border-radius: 0 6px 6px 0;
-  transition: background 0.3s ease;
 }
 
 .featured-card h2 {
-  border-bottom: none;
   margin-top: 0;
-  padding-bottom: 0;
 }
 
-.featured-card ul {
-  margin-top: 0.5em;
-}
-
-/* ── Responsive ── */
+/* Responsive */
 @media screen and (max-width: 768px) {
   .headshot {
     width: 140px;
     height: 140px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .headshot {
-    width: 120px;
-    height: 120px;
+    margin: 0 auto 16px;
   }
 
   .social-icons {
-    gap: 16px;
+    justify-content: center;
   }
 }

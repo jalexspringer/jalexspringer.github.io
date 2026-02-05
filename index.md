@@ -9,8 +9,6 @@ Alex has spent over a decade at the intersection of content, commerce, and adver
 
 Alex is a leader on the AI Taskforce for the [APMA](https://theapma.com) (Affiliate & Partner Marketing Association) and is a regular speaker on AI commerce, content attribution, and the future of performance marketing.
 
----
-
 <div class="featured-card" markdown="1">
 
 ## OpenAttribution
@@ -28,8 +26,6 @@ The initiative is Apache 2.0 licensed with multi-stakeholder governance spanning
 
 </div>
 
----
-
 ## Speaking Topics
 
 **AI Commerce Infrastructure** — How content gets into AI recommendations, and why licensing, attribution, and transparency matter
@@ -41,8 +37,6 @@ The initiative is Apache 2.0 licensed with multi-stakeholder governance spanning
 **Transparency Standards for AI** — The case for OpenAttribution, content provenance, and accountability in autonomous systems
 
 **Retail Media in AI** — Why the $166B retail media market has no path into AI shopping assistants, and what replaces ad slots in conversational commerce
-
----
 
 ## Recent Speaking & Media
 
@@ -60,9 +54,7 @@ The intersection of agentic commerce, embedded finance, and AI distribution.
 
 ### Co-panelists have included
 
-Todd Friedman (Google, AI Shopping Lead) | Maya Prosor (Lemonade, CBO) | Parvathi Narayan (Prudential Life, CPO) | Tim Stevens (Quinstreet, COO) | Nicholas Yates (Silverbean) | Mike Logue (Obsero) | Stephen Davis (Finder)
-
----
+Todd Friedman (Google, AI Shopping Lead) · Maya Prosor (Lemonade, CBO) · Parvathi Narayan (Prudential Life, CPO) · Tim Stevens (Quinstreet, COO) · Nicholas Yates (Silverbean) · Mike Logue (Obsero) · Stephen Davis (Finder)
 
 ## Roles
 
@@ -71,8 +63,6 @@ Todd Friedman (Google, AI Shopping Lead) | Maya Prosor (Lemonade, CBO) | Parvath
 **AI Taskforce Lead** — [APMA](https://theapma.com) (Affiliate & Partner Marketing Association)
 
 **Senior Director of AI Strategy & Partnerships** — [impact.com](https://impact.com)
-
----
 
 ## Format
 
