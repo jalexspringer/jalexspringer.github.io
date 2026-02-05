@@ -1,0 +1,21 @@
+<!-- Inline SVG favicon -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%231e6bb8'/><text x='50' y='68' font-family='system-ui,sans-serif' font-size='48' font-weight='700' fill='white' text-anchor='middle'>AS</text></svg>">
+
+<!-- Open Graph -->
+<meta property="og:image" content="{{ '/assets/images/headshot.jpeg' | absolute_url }}">
+<meta property="og:type" content="profile">
+
+<!-- Preload headshot -->
+<link rel="preload" as="image" href="{{ '/assets/images/headshot.jpeg' | relative_url }}">
+
+<!-- Dark mode flash prevention -->
+<script>
+  (function() {
+    var saved = localStorage.getItem('theme');
+    if (saved) {
+      document.documentElement.setAttribute('data-theme', saved);
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  })();
+</script>

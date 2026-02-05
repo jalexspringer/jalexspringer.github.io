@@ -3,8 +3,6 @@ layout: default
 title: Alex Springer
 ---
 
-# Alex Springer
-
 AI Commerce | Content Attribution | Transparency Standards
 
 ---
@@ -13,9 +11,26 @@ AI Commerce | Content Attribution | Transparency Standards
 
 Alex has spent over a decade at the intersection of content, commerce, and advertising — building and scaling partnership technology across the US, UK, and Europe. He works in the impact.com strategy team focused on AI and data products that empower brands and partners to work together more effectively.
 
-Alex is also the director of [OpenAttribution.org](https://openattribution.org), a cross-industry coalition establishing transparency and attribution standards for content usage in AI systems. His current work focuses on the infrastructure challenges emerging as AI platforms build commerce features — how content gets licensed, how creators get compensated, and how we build accountability into systems that increasingly make recommendations on our behalf.
-
 Alex is a leader on the AI Taskforce for the [APMA](https://theapma.com) (Affiliate & Partner Marketing Association) and is a regular speaker on AI commerce, content attribution, and the future of performance marketing.
+
+---
+
+<div class="featured-card" markdown="1">
+
+## OpenAttribution
+
+Alex is the director of [OpenAttribution.org](https://openattribution.org), a cross-industry coalition establishing transparency and attribution standards for content usage in AI systems.
+
+OpenAttribution develops two core standards:
+
+- **AIMS** (Agent Identity Manifest Standard) — Agent identity verification using DID-based manifests, enabling content owners to know which AI systems are accessing their content and why
+- **Telemetry Standard** — Session-based content event tracking that creates an auditable trail from content ingestion through AI-generated recommendations
+
+The initiative is Apache 2.0 licensed with multi-stakeholder governance spanning publishers, platforms, and AI providers. SDKs are available for integration.
+
+[View on GitHub](https://github.com/openattribution-org)
+
+</div>
 
 ---
 
@@ -66,9 +81,3 @@ Todd Friedman (Google, AI Shopping Lead) | Maya Prosor (Lemonade, CBO) | Parvath
 ## Format
 
 Keynote, panel, webinar, podcast, or workshop. Based in the UK, available for in-person events in London and across Europe, and remotely worldwide.
-
----
-
-## Contact
-
-[alex@openattribution.org](mailto:alex@openattribution.org) | [LinkedIn](https://www.linkedin.com/in/jalexspringer/) | [GitHub](https://github.com/jalexspringer)
