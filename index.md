@@ -26,11 +26,25 @@ The initiative is Apache 2.0 licensed with multi-stakeholder governance spanning
 
 </div>
 
+<div class="featured-card" markdown="1">
+
+## SPUR Coalition
+
+Alex is the technical lead for [SPUR](https://spurcoalition.org) (Standards for Publisher Usage Rights), a coalition founded by the BBC, the Financial Times, the Guardian, Sky News, and the Telegraph. SPUR builds shared technical standards so AI developers can access journalism legitimately while publishers keep control of their content and receive fair value.
+
+The coalition's technical work — inference-time telemetry, compliance scanning, and agent identity — builds on OpenAttribution's open standards.
+
+[spurcoalition.org](https://spurcoalition.org)
+
+</div>
+
 ## Speaking Topics
 
 **AI Commerce Infrastructure** — How content gets into AI recommendations, and why licensing, attribution, and transparency matter
 
 **The Zero-Click Era** — What happens to content creators, publishers, and affiliate partners when search becomes answers
+
+**Publisher Rights in the AI Era** — How publishers are building shared infrastructure for licensing, control, and fair value as AI developers access journalism at scale
 
 **Agentic Commerce** — How AI agents are reshaping purchasing, what it means for brands and retailers, and who controls the recommendation
 
@@ -59,6 +73,8 @@ Todd Friedman (Google, AI Shopping Lead) · Maya Prosor (Lemonade, CBO) · Parva
 ## Roles
 
 **Director** — [OpenAttribution.org](https://openattribution.org)
+
+**Technical Lead** — [SPUR Coalition](https://spurcoalition.org)
 
 **AI Taskforce Lead** — [APMA](https://theapma.com) (Affiliate & Partner Marketing Association)
 
